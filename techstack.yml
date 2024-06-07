@@ -1,0 +1,193 @@
+repo_name: minhnguyen311/node-ytdl-core
+report_id: d8408271d92823754003502d94523c2c
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-07T13:22:29+00:00'
+requested_by: depfu[bot]
+provider: github
+branch: master
+detected_tools_count: 14
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/minhnguyen311/node-ytdl-core
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  version: 3.9.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/minhnguyen311/node-ytdl-core/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: fent
+  last_updated_on: 2020-12-17 02:51:37.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/node-ytdl-core/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: fent
+  last_updated_on: 2012-07-16 22:58:43.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/minhnguyen311/node-ytdl-core/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: fent
+  last_updated_on: 2012-07-16 22:58:43.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/minhnguyen311/node-ytdl-core
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/minhnguyen311/node-ytdl-core/blob/master/.github/workflows/daily-test.yml
+  detection_source: ".github/workflows/daily-test.yml"
+  last_updated_by: depfu[bot]
+  last_updated_on: 2022-03-05 14:55:44.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/minhnguyen311/node-ytdl-core/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: TimeForANinja
+  last_updated_on: 2020-04-11 20:12:27.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 9.2.4
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/minhnguyen311/node-ytdl-core/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: greenkeeper[bot]
+  last_updated_on: 2020-02-19 16:04:50.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/minhnguyen311/node-ytdl-core/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: fent
+  last_updated_on: 2012-07-16 22:58:43.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 14.18.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/minhnguyen311/node-ytdl-core/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: depfu[bot]
+  last_updated_on: 2022-03-05 14:55:44.000000000 Z
+- name: dtslint
+  description: Runs tests on TypeScript definition files
+  package_url: https://www.npmjs.com/dtslint
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17130/default_747c790463912ea0e3a85597146d9c13d6a53db9.png
+  detection_source_url: https://github.com/minhnguyen311/node-ytdl-core/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: TimeForANinja
+  last_updated_on: 2020-07-31 16:50:57.000000000 Z
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 13.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/minhnguyen311/node-ytdl-core/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: fent
+  last_updated_on: 2020-11-11 03:33:01.000000000 Z
+- name: nyc
+  description: The Istanbul command line interface
+  package_url: https://www.npmjs.com/nyc
+  version: 15.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/minhnguyen311/node-ytdl-core/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: fent
+  last_updated_on: 2012-07-16 22:58:43.000000000 Z
+- name: sax
+  description: An evented streaming XML parser in JavaScript
+  package_url: https://www.npmjs.com/sax
+  version: 1.2.4
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17116/default_aae1698f13b22e457dce8faa3612b71379cf7a48.png
+  detection_source_url: https://github.com/minhnguyen311/node-ytdl-core/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: fent
+  last_updated_on: 2012-07-16 22:58:43.000000000 Z
